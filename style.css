@@ -100,7 +100,11 @@ button{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(/https://th.bing.com/thttps://th.bing.com/th/id/R.f78db862a0eaee1e87a2f38848720513?rik=W66EcgxylBup9g&riu=http%3a%2f%2fsimplywallpaper.net%2fpictures%2f2010%2f08%2f23%2fearth-from-space.jpg&ehk=CgL4Ygbrrej52DM7vw1%2f8inO2uazajQE%2fWxPxHWvs6Y%3d&risl=&pid=ImgRaw&r=0);
+
     background-position: center;
     background-size: cover;
+    border: 2px solid;
+}
+.card1{
+    background-image: url(https://static.wixstatic.com/media/d8a647_278a4a67c6734cc297a614656b5f1b9d~mv2.jpg/v1/fill/w_864,h_556,al_c,lg_1,q_85/d8a647_278a4a67c6734cc297a614656b5f1b9d~mv2.jpg);
 }
