@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100;
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(0,0,0,07),rgba(0,0,0,0.7)),url(images/pexels-brunoscramgnon-596134.jpg); */
+    background-image: url(https://townsquare.media/site/397/files/2018/06/RS4404_146969340-e1530113411257.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89);
+    /* background-position: center;
+    background-size: cover; */
+    background-size: cover;
+    background-position: center;
+    padding-left: 1%;
+    padding-right: 16%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: fixed;
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 10vh;
+    padding: 0;
+}
+
+.navbar img{
+    width: 5%;
+    height:10vh;
+    margin: 0;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.space-logo-vector_848918-9672{
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 10px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: left;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(/https://th.bing.com/thttps://th.bing.com/th/id/R.f78db862a0eaee1e87a2f38848720513?rik=W66EcgxylBup9g&riu=http%3a%2f%2fsimplywallpaper.net%2fpictures%2f2010%2f08%2f23%2fearth-from-space.jpg&ehk=CgL4Ygbrrej52DM7vw1%2f8inO2uazajQE%2fWxPxHWvs6Y%3d&risl=&pid=ImgRaw&r=0);
+    background-position: center;
+    background-size: cover;
+}
