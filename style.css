@@ -100,11 +100,32 @@ button{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-
     background-position: center;
     background-size: cover;
     border: 2px solid;
+    transition: transform 0.5s;
 }
 .card1{
-    background-image: url(https://static.wixstatic.com/media/d8a647_278a4a67c6734cc297a614656b5f1b9d~mv2.jpg/v1/fill/w_864,h_556,al_c,lg_1,q_85/d8a647_278a4a67c6734cc297a614656b5f1b9d~mv2.jpg);
+    background-image: url(https://th.bing.com/th/id/R.397f18230b3773d525e79c851f6620ae?rik=uIgrJ%2f2nNST%2f5g&riu=http%3a%2f%2fwww.knest.co.jp%2fearth.jpg&ehk=OOWCT%2fj22sERtaOFp3Nw%2bZZ1CRxek3w5ouzgtzlVVFg%3d&risl=&pid=ImgRaw&r=0);
+}
+.card2{
+    background-image: url(https://th.bing.com/th/id/R.a219041f44f9a8c9d272f78c1687328d?rik=amlwyhY7I8hRZg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-FfcNOkWuu6E%2fUZGqVch_30I%2fAAAAAAAAACI%2fgMslaRkvfEE%2fs1600%2fmars-planet.jpg&ehk=VJefKeJxmo9FMxFNs0VehcQaJBa%2bRQbUx1o0hptzMyU%3d&risl=&pid=ImgRaw&r=0);
+}
+.card3{
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP._eEgxa4SDZVHl8ANHLiDigHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3);
+}
+.card4{
+    background-image: url(https://solarsystem.nasa.gov/system/stellar_items/image_files/90_feature_1600x900_4.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+   color: #fff;
+   text-shadow: 0 0 5px #999; 
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
 }
